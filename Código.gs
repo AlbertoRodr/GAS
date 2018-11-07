@@ -26,7 +26,7 @@ function emptyColumns() {
   
   for(var i=0;i<valores[0].length;i++){ //The next instruction goes through the array.
     /* The next instructions compares if any item in the array matches with "Faltas". If it matches, that column will be deleted. */
-    if((valores[0][i]==="Faltas")){ 
+    if((valores[0][i]=== texto)){ 
       var range=sheet.getRange(limite,i+1,sheet.getLastRow()).clearContent(); 
     }//Fin Si
   }//Fin Para

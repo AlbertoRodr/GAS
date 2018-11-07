@@ -10,7 +10,7 @@ function emptyColumns() {
  var ss=SpreadsheetApp.getActiveSpreadsheet();
  var sheet=ss.getSheets()[0];
  
- /* FUNCIONALIDAD Nº 1 */
+ /* FUNCTIONALITY Nº 1 */
  var usuarios= ["Enrique", "Javier","Alberto"];
  var contrasena="nuevasprofesiones";
  var user=Browser.inputBox("Usuario: ");
@@ -24,7 +24,7 @@ function emptyColumns() {
      var numfila=Browser.inputBox("Introduce la fila en la que comienza la tabla: ");
    }//Fin Mientras
    
-   /* FUNCIONALIDAD Nº 2 */
+   /* FUNCTIONALITY Nº 2 */
    var texto= Browser.inputBox("Introduce el nombre de la columna que desea borrar: ");
    while(parseInt(texto)){
      var texto= Browser.inputBox("Introduce el nombre de la columna que desea borrar: ");
